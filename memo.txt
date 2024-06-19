@@ -1,0 +1,19 @@
+ロゴの動き
+・画像読み込み＋アニメーション＋state受け取り
+
+番組テキストの動き
+・
+
+・キャスターリストのうごき
+
+・
+//色がくすむのはトーンマッピングの問題かな
+https://stackoverflow.com/questions/64899716/color-differences-between-threejs-vanilla-js-and-react-three-fiber-create-re?rq=4
+
+・if-elseの順序に注意 + うまくいかないときはifの判定につかう変数がundfinedになっていないかなどconsoleで確認する
+自作のImageElementをたくさん作った時、smallPictureには変数を渡していてlargePictureには変数を渡していないために
+うまくいかないことがあった
+→if文を作るときは要素が全部読み込まれているか確認してから書く？
+・rayCastというかクリックイベントで３Dオブジェクトを触りたいとき、
+重なっている(距離が近い？)3Dオブジェクトは全部判定されるので注意。
+透明度が0の場合でもある判定されるのでif文などでopacity=0をはじくように

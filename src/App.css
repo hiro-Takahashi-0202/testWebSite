@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body {
+  background-color: rgb(250,250,250);
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+@keyframes name1 {
+    0% { background: red; }
+    50% { background: orange; }
+    100% { background: pink; }
+  }
+
+.button {
+    font-size: 23px;
+    font-style: sans-serif;
+    color: white;
+    background: red;
+    min-width: 250px;
+    border-radius: 30px;
+    outline-color: rgb(106, 28, 28);
+    margin-right: 30px;
+}
+
+.student__text {
+    background: red;
+    animation: bg-color 10s infinite;
+    min-width: 300px;
+    border-radius: 30px;
+    /*border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;*/
+}
+
+.selected {
+    border-left: 1px solid black;
+    padding: 10px 10px 10px 15px;
+    height: 600px;
+    width: 300px;
+}
+
+.table {
+  border-bottom: 1px solid black;
+  padding: 0px 3px 3px 0px;
+}
+
+.table_banner {
+  border-bottom: 1px solid black;
+  padding: 8px 3px 3px 3px;
+}
+
+.table_text{
+  color:black;
+}
