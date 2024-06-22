@@ -18,8 +18,9 @@ body {
     background: red;
     min-width: 250px;
     border-radius: 30px;
-    outline-color: rgb(106, 28, 28);
+    outline-color: rgb(255, 255, 255);
     margin-right: 30px;
+    border:none;
 }
 
 .student__text {

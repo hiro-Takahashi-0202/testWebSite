@@ -7,8 +7,8 @@ import { TextureLoader } from 'three';
 const ImageComponent = ({startPos, endPos , logoActive}) => {
     
     const myMesh = useRef();
-    
-    const texture = useLoader(TextureLoader, 'src/assets/mainLogo.png', (loader) => {
+    //src/assets/mainLogo.png
+    const texture = useLoader(TextureLoader, '/image/mainLogo.png', (loader) => {
         loader.colorSpace = THREE.SRGBColorSpace;
     });
     const aspectRatio = texture.image.width / texture.image.height;
