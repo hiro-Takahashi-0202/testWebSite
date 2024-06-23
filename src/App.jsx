@@ -108,7 +108,7 @@ export default function App() {
   return (
     <>
     <Header />
-    <div style={{width: '100vw', height: '80vh'}}>
+    <div className="responsive">
       <Canvas onCreated={({ gl }) => { gl.toneMapping = THREE.NoToneMapping }} style={{width: '100vw', height: '80vh',padding: "0px" }} >
       
         <ambientLight intensity={1.0} />

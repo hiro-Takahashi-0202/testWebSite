@@ -55,5 +55,11 @@ body {
 .canvas-parent {
   width: 100vw; /* PC上では100%の幅 */
   height: 80vh; /* PC上では80%の高さ */
+}
 
+@media (max-width: 767px) {
+  .responsive {
+    width: 50vw; /* PC上では100%の幅 */
+    height: 80vh; /* PC上では80%の高さ */
+  }
 }
