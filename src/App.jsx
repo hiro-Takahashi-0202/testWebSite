@@ -108,6 +108,7 @@ export default function App() {
   return (
     <>
     <Header />
+    <div className="canvas-parent">
       <Canvas onCreated={({ gl }) => { gl.toneMapping = THREE.NoToneMapping }} style={{width: '100vw', height: '80vh',padding: "0px" }} >
       
         <ambientLight intensity={1.0} />
@@ -130,6 +131,7 @@ export default function App() {
         {/*<CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>*/}
         <BackGroundImage Pos={[0,0,-4]} Scale={[25,25,25]}/>
       </Canvas>
+      </div>
 
       <div style={{ display: "flex", justifyContent: "center", padding:"10px" }}>
         <button className="button" onClick={button1} >番組について</button>

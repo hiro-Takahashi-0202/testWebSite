@@ -51,3 +51,8 @@ body {
 .table_text{
   color:black;
 }
+
+.canvas-parent {
+  width: 100vw; /* PC上では100%の幅 */
+  height: 80vh; /* PC上では80%の高さ */
+}
