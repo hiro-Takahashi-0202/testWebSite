@@ -120,15 +120,15 @@ export default function App() {
         
         {/*番組ロゴ*/}
         <ImageComponent startPos={[0,0,0]} endPos={[0,4.5,-2.5]} logoActive={logoActive} />
-        {/*番組説明文1<Description position={[0,1.5,0]}  scale={[1.5,1.5]} startDelay={300} returnDelay={0} descriptionActive={descriptionActive}  src={'iamge/discription/description1.png'}/>*/}
-        {/*番組説明文2<Description position={[0,-0.2,0]}  scale={[1.5,1.5]} startDelay={600} returnDelay={0} descriptionActive={descriptionActive}  src={'iamge/discription/description1.png'}/>*/}
-        {/*番組説明文3<Description position={[0,-1.9,0]} scale={[1.5,1.5]} startDelay={900} returnDelay={0} descriptionActive={descriptionActive}  src={'iamge/discription/description1.png'}/>*/}
-        
+        {/*番組説明文1*<Description position={[0,1.5,0]}  scale={[1.5,1.5]} startDelay={300} returnDelay={0} descriptionActive={descriptionActive}  src={'src/assets/ProgramDescription/description1.png'}/>/}
+        {/*番組説明文2*<Description position={[0,-0.2,0]}  scale={[1.5,1.5]} startDelay={600} returnDelay={0} descriptionActive={descriptionActive}  src={'src/assets/ProgramDescription/description1.png'}/>/}
+        {/*番組説明文3*<Description position={[0,-1.9,0]} scale={[1.5,1.5]} startDelay={900} returnDelay={0} descriptionActive={descriptionActive}  src={'src/assets/ProgramDescription/description1.png'}/>/}
+        */}
 
         {/*<OrbitControls/>*/}
-        <Description DiscriptionListJson={DiscriptionListJson} descriptionActive={descriptionActive}/>
+        {/*<Description DiscriptionListJson={DiscriptionListJson} descriptionActive={descriptionActive}/>
         <CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>
-        <BackGroundImage Pos={[0,0,-4]} Scale={[25,25,25]}/>
+        <BackGroundImage Pos={[0,0,-4]} Scale={[25,25,25]}/>*/}
       </Canvas>
 
       <div style={{ display: "flex", justifyContent: "center", padding:"10px" }}>
@@ -136,7 +136,51 @@ export default function App() {
         <button className="button" onClick={openLivePage}>ライブ配信</button>
         <button className="button" onClick={button2}>キャスター紹介</button>
       </div>
+      
+      <div style={{ display: "flex", justifyContent: "center" , paddingBottom:"100px"}}>
+        <td className="selected" valign="top">
+        </td>
+        <td className="selected" valign="top">
+        {/*<!-- item -->*/}
+          <div className="table">
+            <h3><a className="table_text" href="https://www.gtasu.com/golf/wladies/" target="_blank">5/3(金・祝)・5/5(日・祝)<br/>ワールドレディスチャンピオンシップサロンパスカップ2024を生中継！</a></h3>
+          </div>
 
+          {/*<!-- item -->*/}
+          <div className="table">
+            <h3><a className="table_text" href="https://www.ntv.co.jp/news24/marines/" target="_blank">千葉ロッテマリーンズ主催公式戦を全試合放送！</a></h3>
+          </div>
+
+          {/*<!-- item -->*/}
+          <div className="table">
+            <h3><a className="table_text" href="./images/cs_info_20220120.pdf" target="_blank">日テレ系 CS3チャンネル 2022年4月からスカパー!にて3チャンネルセット商品として販売</a></h3>
+          </div>
+
+          {/*<!-- フェイスブック固定 -->*/}
+          <div className="table">
+          <h3><a href="https://www.facebook.com/ntvnews24/" title="タイトル" target="_blank">日テレNEWS24<br/>公式Facebookページ</a></h3>
+          <h4>よりよい番組づくりに活用していきたいと考えていますので、
+          <br/>ぜひ「いいね！」を押して参加してください。</h4>
+          </div>
+        </td>
+
+        <td className="selected" valign="top">
+        {/*<!-- item -->*/}
+          <div className="table_banner">
+            <img src="src/assets/banner/banner_newsapp.png"/>
+          </div>
+          <div className="table_banner">
+            <img src="src/assets/banner/banner_marines.jpg"/>
+          </div>
+          <div className="table_banner">
+            <img src="src/assets/banner/news24catv.png"/>
+          </div>
+          <div className="table_banner">
+            <img src="src/assets/banner/news24facebook.png"/>
+          </div>
+        </td>
+      </div>
+      
       <Footer  />
       {/*<Footer  />*/}
     </>

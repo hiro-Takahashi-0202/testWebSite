@@ -8,12 +8,12 @@ const BackGroundImage = ({Pos,Scale}) => {
     const myMesh = useRef();
     const myMesh2 = useRef();
     
-    const texture = useLoader(TextureLoader, 'src/assets/background.png');
+    const texture = useLoader(TextureLoader, 'image/background.png');
     texture.colorSpace = THREE.SRGBColorSpace;
     const aspectRatio = texture.image.width / texture.image.height;
     Scale[0] = Scale[0] * aspectRatio;
 
-    const texture2 = useLoader(TextureLoader, 'src/assets/background.png');
+    const texture2 = useLoader(TextureLoader, 'image/background.png');
     texture2.colorSpace = THREE.SRGBColorSpace;
 
     useFrame(() => {

@@ -1,0 +1,28 @@
+[
+    {   
+        "//comment": [
+            "文章1"
+        ],
+
+        "src":"image/discription/description1.png",
+        "pos": [ 0.0, 1.5, 0.0 ],
+        "scale": [ 1.6, 1.6, 1.6 ]
+    },{   
+        "//comment": [
+            "文章2"
+        ],
+
+        "src":"image/discription/description1.png",
+        "pos": [ 0,0, 0.0, 0.0 ],
+        "scale": [ 1.6, 1.6, 1.6 ]
+    },{   
+        "//comment": [
+            "文章3"
+        ],
+
+        "src":"image/discription/description1.png",
+        "pos": [ 0.0, -1.5, 0.0 ],
+        "scale": [ 1.6, 1.6, 1.6 ]
+    }
+    
+]
