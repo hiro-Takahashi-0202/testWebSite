@@ -126,8 +126,8 @@ export default function App() {
         
 
         {/*<OrbitControls/>*/}
-        <Description DiscriptionListJson={DiscriptionListJson} descriptionActive={descriptionActive}/>
-        <CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>
+        {/*<Description DiscriptionListJson={DiscriptionListJson} descriptionActive={descriptionActive}/>*/}
+        {/*<CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>*/}
         <BackGroundImage Pos={[0,0,-4]} Scale={[25,25,25]}/>
       </Canvas>
 
