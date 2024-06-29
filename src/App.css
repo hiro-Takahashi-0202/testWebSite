@@ -59,7 +59,7 @@ body {
   height: 80vh; /* PC上では80%の高さ */
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .responsive {
     width: 100vw; /* スマホ上では100%の幅 */
     height: 80vh; /* スマホ上では80%の高さ */
