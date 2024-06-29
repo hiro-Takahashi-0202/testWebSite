@@ -1,24 +1,23 @@
 {/* CSS */}
 import "./App.css";
+
 {/* library */}
 import React, { useState } from "react";
 import * as THREE from 'three';
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Environment } from '@react-three/drei';
+
 {/* custom component */}
-//import AnimatedBox from "./components/AnimatedBox";
-//import CastersList from "./components/CastersList";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ImageComponent from "./components/ImageComponent";
 import Description from "./components/Description";
 import CasterImage from "./components/CasterImage";
 import BackGroundImage from "./components/BackGroundImage";
-import Cube from "./components/Cube";
+
 {/* Json */}
 import CastersListJson from "./castersList.json";
 import DiscriptionListJson from "./DiscriptionList.json";
-//./assets/DiscriptionList.json
 
 //import { useSpring, animated } from '@react-spring/three'
 //import { TextureLoader } from 'three';

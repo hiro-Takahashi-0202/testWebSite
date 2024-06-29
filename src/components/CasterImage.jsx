@@ -85,7 +85,7 @@ const CasterImage = ({ CastersListJson, casterGrpActive, casterActiveArray, setC
                             pos={[0, 0, 0]}
                             scale={[1.5, 1.5, 1.5]}
                             opacity={springPropsArray[index].opacity}
-                            src={"src/assets/caster_name/common/small/small_name_base.png"}
+                            src={"image/caster_name/common/small/small_name_base.png"}//public\image\caster_name\common\small\small_name_base.png
                         />
 
                         <Image
@@ -105,14 +105,14 @@ const CasterImage = ({ CastersListJson, casterGrpActive, casterActiveArray, setC
                             pos={[0, 0, 0.02]}
                             scale={[1.5, 1.5, 1.5]}
                             opacity={springPropsArray_single[index].opacity}
-                            src={"src/assets/caster_name/common/large/large_name_base.png"}
+                            src={"image/caster_name/common/large/large_name_base.png"}
                         />
                         {/*番組ロゴ*/}
                         <Image
                             pos={[-1.8, 0.58, 0.05]}
                             scale={[0.22,0.22, 0.22]}
                             opacity={springPropsArray_single[index].opacity}
-                            src={"src/assets/caster_name/common/large/large_name_n24.png"}
+                            src={"image/caster_name/common/large/large_name_n24.png"}
                         />
                         {/*名前テキスト*/}
                         <Image
@@ -133,7 +133,7 @@ const CasterImage = ({ CastersListJson, casterGrpActive, casterActiveArray, setC
                             pos={[1.7, -0.45, 0.1]}
                             scale={[0.4, 0.4, 0.4]}
                             opacity={springPropsArray_single[index].opacity}
-                            src={"src/assets/caster_name/common/large/large_name_back.png"}
+                            src={"image/caster_name/common/large/large_name_back.png"}
                             name={"largeBase_Back"}
                             setCasterActive={setCasterActiveArray[index]}
                         />
