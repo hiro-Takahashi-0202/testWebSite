@@ -1,0 +1,290 @@
+[
+    {   
+        "//comment": [
+            "上段",
+            "キャスター0"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos": [ -6.0,1.4, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.03],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.02],
+        "largePic1_Scale":[2.5,2.5,2.5],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[0,0,0],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.02],
+        "largePic3_Scale":[0,0,0]
+    },
+    {   
+        "//comment": [
+            "上段",
+            "キャスター1"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos":  [ 0.0,1.4, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.03],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.02],
+        "largePic1_Scale":[1,1,1],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[1,1,1],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.02],
+        "largePic3_Scale":[1,1,1]
+    },
+    {   
+        "//comment": [
+            "上段",
+            "キャスター2"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos":  [ 6.0,1.4, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.03],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.02],
+        "largePic1_Scale":[1,1,1],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[1,1,1],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.02],
+        "largePic3_Scale":[1,1,1]
+    },
+    {   
+        "//comment": [
+            "中段",
+            "キャスター3"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos": [ -6.0,-0.65, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.03],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.02],
+        "largePic1_Scale":[1,1,1],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[1,1,1],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.02],
+        "largePic3_Scale":[1,1,1]
+    },
+    {   
+        "//comment": [
+            "中段",
+            "キャスター4"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos":[ 0.0,-0.65, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.03],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.02],
+        "largePic1_Scale":[1,1,1],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[1,1,1],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.02],
+        "largePic3_Scale":[1,1,1]
+    },
+    {   
+        "//comment": [
+            "中段",
+            "キャスター5"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos": [ 6.0,-0.65, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.02],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.03],
+        "largePic1_Scale":[1,1,1],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[1,1,1],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.02],
+        "largePic3_Scale":[1,1,1]
+    },
+    {   
+        "//comment": [
+            "上段",
+            "キャスター6"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos": [ -6.0,-2.6, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.03],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.02],
+        "largePic1_Scale":[1,1,1],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[1,1,1],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.02],
+        "largePic3_Scale":[1,1,1]
+    },
+    {   
+        "//comment": [
+            "下段",
+            "キャスター7"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos": [ 0.0,-2.6, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.03],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.02],
+        "largePic1_Scale":[1,1,1],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[1,1,1],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.02],
+        "largePic3_Scale":[1,1,1]
+    },
+    {   
+        "//comment": [
+            "下段",
+            "キャスター8"
+        ],
+
+        "ID":0,
+
+        "smallPicName_Src":"image/caster_name/caster/caster1/small_name_text1.png",
+        "smallPicName_Pos":  [ 6.0,-2.6, 0.0 ],
+        "smallPicName_Scale": [ 1.3, 1.3, 1.3 ],
+
+        "largeName_Src":"image/caster_name/caster/caster1/large_name_1.png",
+        "largeName_Pos": [-1.05, 0.58, 0.05],
+        "largeName_Scale": [0.19,0.19, 0.19],
+
+        "largeText_Src":"image/caster_name/caster/caster1/large_name_text1.png",
+        "largeText_Pos":[-1,-0.15,0.02],
+        "largeText_Scale":[1.05,1.05,1.05],
+
+        "largePic1_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic1_Pos":[1.1,0,0.02],
+        "largePic1_Scale":[1,1,1],
+
+        "largePic2_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic2_Pos":[0,0,0.02],
+        "largePic2_Scale":[1,1,1],
+
+        "largePic3_Src":"image/caster_name/caster/caster1/large_caster_pic1_1.png",
+        "largePic3_Pos":[0,0,0.03],
+        "largePic3_Scale":[1,1,1]
+    }
+]

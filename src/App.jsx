@@ -16,7 +16,7 @@ import CasterImage from "./components/CasterImage";
 import BackGroundImage from "./components/BackGroundImage";
 import Cube from "./components/Cube";
 {/* Json */}
-import CastersListJson from "./assets/castersList.json";
+import CastersListJson from "./castersList.json";
 import DiscriptionListJson from "./DiscriptionList.json";
 //./assets/DiscriptionList.json
 
@@ -119,7 +119,7 @@ export default function App() {
         {/*<OrbitControls/>*/}
         <ImageComponent startPos={[0,0,0]} endPos={[0,4.5,-2.5]} logoActive={logoActive} />
         <Description DiscriptionListJson={DiscriptionListJson} descriptionActive={descriptionActive}/>
-        {/*<CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>*/}
+        <CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>
         <BackGroundImage Pos={[0,0,-4]} Scale={[25,25,25]}/>
       </Canvas>
       </div>
