@@ -17,7 +17,8 @@ import BackGroundImage from "./components/BackGroundImage";
 import Cube from "./components/Cube";
 {/* Json */}
 import CastersListJson from "./assets/castersList.json";
-import DiscriptionListJson from "./assets/DiscriptionList.json";
+import DiscriptionListJson from "./DiscriptionList.json";
+//./assets/DiscriptionList.json
 
 //import { useSpring, animated } from '@react-spring/three'
 //import { TextureLoader } from 'three';
@@ -103,8 +104,6 @@ export default function App() {
     padding: '10px 20px',
   };
 
-
-
   return (
     <>
     <Header />
@@ -115,32 +114,22 @@ export default function App() {
       
         <ambientLight intensity={1.0} />
         <directionalLight />
-        {/*<AnimatedBox position={[0,0,3]} textActive={textActive} color={'yellow'}/>*/}
-        
-        {/*<CustomButton btName={"番組について"}   style={{left:'-600px', top:bt_pos_top}} button1={button1}/>*/}
-        {/*<CustomButton btName={"ライブ配信"}     style={{left:'0px', top:bt_pos_top}}/>*/}
-        {/*<CustomButton2 btName={"キャスター紹介"} style={{left:'600px', top:bt_pos_top}}  button2={button2}/>*/}
         
         {/*番組ロゴ*/}
-        <ImageComponent startPos={[0,0,0]} endPos={[0,4.5,-2.5]} logoActive={logoActive} />
-        {/*番組説明文1<Description position={[0,1.5,0]}  scale={[1.5,1.5]} startDelay={300} returnDelay={0} descriptionActive={descriptionActive}  src={'iamge/discription/description1.png'}/>*/}
-        {/*番組説明文2<Description position={[0,-0.2,0]}  scale={[1.5,1.5]} startDelay={600} returnDelay={0} descriptionActive={descriptionActive}  src={'iamge/discription/description1.png'}/>*/}
-        {/*番組説明文3<Description position={[0,-1.9,0]} scale={[1.5,1.5]} startDelay={900} returnDelay={0} descriptionActive={descriptionActive}  src={'iamge/discription/description1.png'}/>*/}
-        
-
         {/*<OrbitControls/>*/}
-        {/*<Description DiscriptionListJson={DiscriptionListJson} descriptionActive={descriptionActive}/>*/}
-        {/*<CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>*/}
+        <ImageComponent startPos={[0,0,0]} endPos={[0,4.5,-2.5]} logoActive={logoActive} />
+        <Description DiscriptionListJson={DiscriptionListJson} descriptionActive={descriptionActive}/>
+        <CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>
         <BackGroundImage Pos={[0,0,-4]} Scale={[25,25,25]}/>
       </Canvas>
       </div>
-      {/*
+      
       <div style={{ display: "flex", justifyContent: "center", padding:"10px" }}>
         <button className="button" onClick={button1} >番組について</button>
         <button className="button" onClick={openLivePage}>ライブ配信</button>
         <button className="button" onClick={button2}>キャスター紹介</button>
       </div>
-      */}
+      
 
       <Footer  />
       {/*<Footer  />*/}
