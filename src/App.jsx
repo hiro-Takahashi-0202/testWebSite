@@ -105,6 +105,7 @@ export default function App() {
 
   return (
     <>
+    {console.log("No.1")}
     <Header />
     <div className="responsive">
     <Canvas
