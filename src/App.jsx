@@ -159,9 +159,10 @@ export default function App() {
       {/*</div>*/}
       
       <div style={{ display: "flex", justifyContent: "center", padding:"10px" }}>
-        <button className="button" onClick={button1} >番組について</button>
-        <button className="button" onClick={openLivePage}>ライブ配信</button>
-        <button className="button" onClick={button2}>キャスター紹介</button>
+        {/*className="button"*/}
+        <button onClick={button1} >番組について</button>
+        <button onClick={openLivePage}>ライブ配信</button>
+        <button onClick={button2}>キャスター紹介</button>
       </div>
       
 
