@@ -105,7 +105,7 @@ export default function App() {
 
   return (
     <>
-    {console.log("No.1")}
+    <p>{window.innerWidth}</p>
     <Header />
     <div className="responsive">
     <Canvas
