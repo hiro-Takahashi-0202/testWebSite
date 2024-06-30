@@ -105,23 +105,23 @@ export default function App() {
 
   return (
     <>
-    <p>{window.innerWidth}</p>
     <Header />
     <div className="responsive">
     <Canvas
     onCreated={({ gl,camera }) => {
         gl.toneMapping = THREE.NoToneMapping;
-
+        {/*
         const width = window.innerWidth;
         const height = window.innerHeight;
 
         // レンダラーのサイズを調整する
         gl.setPixelRatio(window.devicePixelRatio);
-        gl.setSize(100, 100);
+        gl.setSize(500, 100);
 
         // カメラのアスペクト比を正す
-        //camera.aspect = width / height;
-        //camera.updateProjectionMatrix();
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+        */}
 
         }}>{/*style={{width: '100vw', height: '80vh',padding: "0px" }}  */}
       
@@ -136,13 +136,12 @@ export default function App() {
         <BackGroundImage Pos={[0,0,-4]} Scale={[25,25,25]}/>
       </Canvas>
       </div>
-      {/*
+      
       <div style={{ display: "flex", justifyContent: "center", padding:"10px" }}>
         <button className="button" onClick={button1} >番組について</button>
         <button className="button" onClick={openLivePage}>ライブ配信</button>
         <button className="button" onClick={button2}>キャスター紹介</button>
       </div>
-      */}
       
 
       <Footer  />

@@ -61,7 +61,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .responsive {
-    width: 100vw; /* スマホ上では100%の幅 */
-    height: 80vh; /* スマホ上では80%の高さ */
+    width: 100svw; /* スマホ上では100%の幅 */
+    height: 80svh; /* スマホ上では80%の高さ */
   }
 }
