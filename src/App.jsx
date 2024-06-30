@@ -123,7 +123,7 @@ export default function App() {
   let vhValue,cameraPos;
   if(window.innerWidth < 400){
     vhValue ="40vh"
-    cameraPos = 15;
+    cameraPos = 10;
   }else{
     vhValue ="80vh"
     cameraPos = 5;
