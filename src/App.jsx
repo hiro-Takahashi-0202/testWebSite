@@ -109,7 +109,7 @@ export default function App() {
     <Header />
     <div className="responsive">
     <Canvas
-    onCreated={({ gl }) => {
+    onCreated={({ gl,camera }) => {
         gl.toneMapping = THREE.NoToneMapping;
 
         const width = window.innerWidth;
@@ -120,8 +120,8 @@ export default function App() {
         gl.setSize(width, height);
 
         // カメラのアスペクト比を正す
-        //camera.aspect = width / height;
-        //camera.updateProjectionMatrix();
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
 
         }}>{/*style={{width: '100vw', height: '80vh',padding: "0px" }}  */}
       
