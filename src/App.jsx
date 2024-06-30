@@ -121,12 +121,12 @@ export default function App() {
   console.log(fov);
 
   let vhValue,cameraPos;
-  if(innerWidth > 400){
+  if(window.innerWidth < 400){
+    vhValue ="40vh"
+    cameraPos = 15;
+  }else{
     vhValue ="80vh"
     cameraPos = 5;
-  }else{
-    vhValue ="40vh"
-    cameraPos = 10;
   }
 
   return (
