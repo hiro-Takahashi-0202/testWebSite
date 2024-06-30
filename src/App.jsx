@@ -118,7 +118,7 @@ export default function App() {
   } else {
     fov = 90;
   }
-  console.log(fov)
+  console.log(fov);
 
   return (
     <>
@@ -126,7 +126,7 @@ export default function App() {
     {/*<div className="responsive">*/}
     {/*<div style={{width:window.innerWidth, height:window.innerWidth/2.8}}>*/}
     <div style={{width:"100vw", height:"80vh"}}>
-    <Canvas camera={{fov:fov}}
+    <Canvas camera={{fov:100}}
     onCreated={({ gl }) => {
         gl.toneMapping = THREE.NoToneMapping;
         
