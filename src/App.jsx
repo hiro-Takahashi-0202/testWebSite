@@ -126,7 +126,7 @@ export default function App() {
     {/*<div className="responsive">*/}
     {/*<div style={{width:window.innerWidth, height:window.innerWidth/2.8}}>*/}
     <div style={{width:"100vw", height:"80vh"}}>
-    <Canvas camera={{fov:150}}
+    <Canvas camera={{fov:130}}
     onCreated={({ gl }) => {
         gl.toneMapping = THREE.NoToneMapping;
         
