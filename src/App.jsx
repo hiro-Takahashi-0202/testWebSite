@@ -123,8 +123,10 @@ export default function App() {
   let vhValue,cameraPos;
   if(window.innerWidth < 400){
     cameraPos = 10;
+    vhValue = "20vh";
   }else{
     cameraPos = 5;
+    vhValue = "80vh";
   }
 
   return (
@@ -132,7 +134,7 @@ export default function App() {
     <Header />
     {/*<div className="responsive">*/}
     {/*<div style={{width:window.innerWidth, height:window.innerWidth/2.8}}>*/}
-    <div style={{width:"100vw", height:"80vh"}}>
+    <div style={{width:"100vw", height:vhValue}}>
     <Canvas camera={{ position: [0, 0, cameraPos]}}
     //{ fov: 75, near: 0.1, far: 1000, position: [0, 0, 5] }
     onCreated={({ gl }) => {
