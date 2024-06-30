@@ -103,13 +103,33 @@ export default function App() {
     padding: '10px 20px',
   };
 
+  var aspRatio = window.innerWidth / window.innerHeight;
+  console.log(aspRatio);
+  // 視野角
+  let fov;
+  if (aspRatio > 1) {
+    fov = 75;
+  } else if (aspRatio > 0.8) {
+    fov = 55;
+  } else if (aspRatio > 0.6) {
+    fov = 70;
+  } else if (aspRatio > 0.5) {
+    fov = 80;
+  } else {
+    fov = 90;
+  }
+  console.log(fov)
+
   return (
     <>
     <Header />
-    <div className="responsive">
-    <Canvas
-    onCreated={({ gl,camera }) => {
+    {/*<div className="responsive">*/}
+    {/*<div style={{width:window.innerWidth, height:window.innerWidth/2.8}}>*/}
+    <div style={{width:"100vw", height:"80vh"}}>
+    <Canvas camera={{fov:fov}}
+    onCreated={({ gl }) => {
         gl.toneMapping = THREE.NoToneMapping;
+        
         {/*
         const width = window.innerWidth;
         const height = window.innerHeight;
