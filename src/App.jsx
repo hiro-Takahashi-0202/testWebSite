@@ -117,7 +117,7 @@ export default function App() {
 
         // レンダラーのサイズを調整する
         gl.setPixelRatio(window.devicePixelRatio);
-        gl.setSize(width, height);
+        gl.setSize(375, 375/1.5);
 
         // カメラのアスペクト比を正す
         camera.aspect = width / height;
