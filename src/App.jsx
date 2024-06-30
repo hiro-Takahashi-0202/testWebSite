@@ -125,8 +125,9 @@ export default function App() {
     <Header />
     {/*<div className="responsive">*/}
     {/*<div style={{width:window.innerWidth, height:window.innerWidth/2.8}}>*/}
-    <div style={{width:"100vw", height:"80vh"}}>
-    <Canvas camera={{fov:130}}
+    {/*<div style={{width:"100vw", height:"80vh"}}>*/}
+    <Canvas camera={{ position: [0, 0, 5]}}
+    //{ fov: 75, near: 0.1, far: 1000, position: [0, 0, 5] }
     onCreated={({ gl }) => {
         gl.toneMapping = THREE.NoToneMapping;
         
@@ -155,7 +156,7 @@ export default function App() {
         <CasterImage casterActiveArray={casterActiveArray} setCasterActiveArray={setCasterActiveArray} descriptionActive={descriptionActive} casterGrpActive={casterGrpActive} casterId={casterId} setCasterId={setCasterId} CastersListJson={CastersListJson}/>
         <BackGroundImage Pos={[0,0,-4]} Scale={[25,25,25]}/>
       </Canvas>
-      </div>
+      {/*</div>*/}
       
       <div style={{ display: "flex", justifyContent: "center", padding:"10px" }}>
         <button className="button" onClick={button1} >番組について</button>
