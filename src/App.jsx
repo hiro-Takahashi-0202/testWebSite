@@ -102,7 +102,7 @@ export default function App() {
     fontSize: '24px',
     padding: '10px 20px',
   };
-
+  /*
   var aspRatio = window.innerWidth / window.innerHeight;
   console.log(aspRatio);
   // 視野角
@@ -119,6 +119,7 @@ export default function App() {
     fov = 90;
   }
   console.log(fov);
+  */
 
   let vhValue,cameraPos;
   if(window.innerWidth < 400){
@@ -132,8 +133,6 @@ export default function App() {
   return (
     <>
     <Header />
-    {/*<div className="responsive">*/}
-    {/*<div style={{width:window.innerWidth, height:window.innerWidth/2.8}}>*/}
     <div style={{width:"100vw", height:vhValue}}>
     <Canvas camera={{ position: [0, 0, cameraPos]}}
     //{ fov: 75, near: 0.1, far: 1000, position: [0, 0, 5] }
@@ -169,9 +168,9 @@ export default function App() {
       
       <div style={{ display: "flex", justifyContent: "center", padding:"10px" }}>
         {/*className="button"*/}
-        <button onClick={button1} >番組について</button>
-        <button onClick={openLivePage}>ライブ配信</button>
-        <button onClick={button2}>キャスター紹介</button>
+        <button className="button" onClick={button1} >番組について</button>
+        <button className="button" onClick={openLivePage}>ライブ配信</button>
+        <button className="button" onClick={button2}>キャスター紹介</button>
       </div>
       
 
