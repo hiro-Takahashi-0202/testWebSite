@@ -11,18 +11,7 @@ body {
     100% { background: pink; }
   }
 
-.button {
-    font-size: 15px;
-    font-style: sans-serif;
-    color: white;
-    background: red;
-    min-width: 150px;
-    border-radius: 10px;
-    outline-color: rgb(255, 255, 255);
-    margin-right: 30px;
-    border:none;
-    height:40px;
-}
+
 
 .student__text {
     background: red;
@@ -59,9 +48,34 @@ body {
   height: 80vh; /* PC上では80%の高さ */
 }
 
+.button {
+  font-size: 15px;
+  font-style: sans-serif;
+  color: white;
+  background: red;
+  min-width: 150px;
+  border-radius: 10px;
+  outline-color: rgb(255, 255, 255);
+  margin-right: 30px;
+  border:none;
+  height:40px;
+}
+
 @media screen and (max-width: 767px) {
   .responsive {
     width: 100svw; /* スマホ上では100%の幅 */
     height: 80svh; /* スマホ上では80%の高さ */
+  }
+
+  .button {
+    font-style: sans-serif;
+    color: white;
+    background: blue;
+    min-width: 150px;
+    border-radius: 10px;
+    outline-color: rgb(255, 255, 255);
+    margin-right: 30px;
+    border:none;
+    height:40px;
   }
 }
